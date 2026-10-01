@@ -5,7 +5,7 @@ const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem('dsa_quiz_user');
+    const saved = localStorage.getItem('dsa_quiz_user_v2');
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -21,9 +21,9 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     if (user) {
-      localStorage.setItem('dsa_quiz_user', JSON.stringify(user));
+      localStorage.setItem('dsa_quiz_user_v2', JSON.stringify(user));
     } else {
-      localStorage.removeItem('dsa_quiz_user');
+      localStorage.removeItem('dsa_quiz_user_v2');
     }
   }, [user]);
 
