@@ -78,7 +78,7 @@ export default function AuthModal() {
           className="w-full mb-5 py-2.5 px-4 rounded-xl border border-[#A8C4EC]/60 dark:border-[#0474C4]/40 bg-[#A8C4EC]/15 dark:bg-[#0474C4]/15 hover:bg-[#A8C4EC]/30 dark:hover:bg-[#0474C4]/30 text-[#06457F] dark:text-[#A8C4EC] text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-150"
         >
           <ShieldCheck className="w-4 h-4 text-[#0474C4] dark:text-[#A8C4EC]" />
-          <span>Quick 1-Click Demo Login (Alex Chen)</span>
+          <span>Quick 1-Click Demo Login (Vishal Khatri)</span>
         </button>
 
         {/* Divider */}

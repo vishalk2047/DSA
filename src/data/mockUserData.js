@@ -1,8 +1,8 @@
 export const DEFAULT_USER = {
   id: 'user-001',
-  name: 'Alex Chen',
-  username: 'alex_coder',
-  email: 'alex.chen@example.com',
+  name: 'Vishal Khatri',
+  username: 'vishal_codes',
+  email: 'vishalkhatri2047@gmail.com',
   avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250',
   title: 'Algorithm Enthusiast',
   level: 14,
@@ -87,7 +87,7 @@ export const LEADERBOARD = [
   { rank: 1, name: 'Elena Rostova', username: 'erostova', score: 14850, accuracy: 96.2, streak: 45, avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150' },
   { rank: 2, name: 'David Kim', username: 'dkim_codes', score: 13920, accuracy: 94.8, streak: 32, avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150' },
   { rank: 3, name: 'Priya Sharma', username: 'priya_algo', score: 12480, accuracy: 93.1, streak: 28, avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150' },
-  { rank: 4, name: 'Alex Chen (You)', username: 'alex_coder', score: 9850, accuracy: 84.5, streak: 12, avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150', isCurrentUser: true },
+  { rank: 4, name: 'Vishal Khatri (You)', username: 'vishal_codes', score: 9850, accuracy: 84.5, streak: 12, avatar: 'avatar.webp', isCurrentUser: true },
   { rank: 5, name: 'Marcus Vance', username: 'mvance', score: 9420, accuracy: 82.0, streak: 15, avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150' },
   { rank: 6, name: 'Sarah Jenkins', username: 'sjenkins', score: 8900, accuracy: 81.4, streak: 9, avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150' }
 ];
