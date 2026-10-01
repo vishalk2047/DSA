@@ -116,7 +116,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
                       <p className="text-[11px] text-slate-400 truncate">{user.email}</p>
                       <div className="mt-1.5 flex items-center justify-between text-[11px] text-[#0474C4] dark:text-[#A8C4EC] font-medium">
                         <span>Lvl {user.level}</span>
-                        <span>{user.xp} XP</span>
+                        
                       </div>
                     </div>
 

@@ -184,7 +184,7 @@ export default function HomePage({ onNavigate, onOpenQuizModal }) {
               <TopicCard
                 key={topic.id}
                 topic={topic}
-                questionCount={count || 5}
+                
                 mastery={mastery}
                 onStartQuiz={() => onOpenQuizModal(topic.id, 'all', 5)}
               />

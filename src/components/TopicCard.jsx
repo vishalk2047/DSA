@@ -27,20 +27,18 @@ export default function TopicCard({ topic, questionCount, onStartQuiz }) {
 
   return (
     <div className="group relative bg-white dark:bg-[#262B40] border border-slate-200/80 dark:border-slate-800 hover:border-[#0474C4]/60 dark:hover:border-[#0474C4]/60 rounded-2xl p-5 sm:p-6 shadow-subtle hover:shadow-card-hover transition-all duration-200 flex flex-col justify-between">
-      <div>
-        <div className="flex items-start justify-between">
+      <div className="text-center">
+        <div className="flex items-start justify-center">
           <div className="p-3 rounded-xl border bg-[#A8C4EC]/15 dark:bg-[#0474C4]/15 border-[#A8C4EC]/30 dark:border-[#0474C4]/30 text-[#0474C4] dark:text-[#A8C4EC]">
             <IconComponent className="w-6 h-6" />
           </div>
-          <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[#A8C4EC]/20 text-[#06457F] dark:text-[#A8C4EC]">
-            {questionCount} Questions
-          </span>
+          
         </div>
 
-        <h3 className="mt-4 text-lg font-bold text-slate-900 dark:text-white group-hover:text-[#0474C4] dark:group-hover:text-[#A8C4EC] transition-colors">
+        <h3 className="mt-5 text-lg font-bold text-slate-900 dark:text-white group-hover:text-[#0474C4] dark:group-hover:text-[#A8C4EC] transition-colors">
           {topic.name}
         </h3>
-        <p className="mt-1 text-xs sm:text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <p className="mt-1.5 min-h-[2rem] sm:min-h-[2.5rem] text-xs sm:text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
           {topic.desc}
         </p>
       </div>
