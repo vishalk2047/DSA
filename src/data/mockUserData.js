@@ -3,7 +3,7 @@ export const DEFAULT_USER = {
   name: 'Vishal Khatri',
   username: 'vishal_codes',
   email: 'vishalkhatri2047@gmail.com',
-  avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250',
+  avatar: '/avatar.webp',
   title: 'Algorithm Enthusiast',
   level: 14,
   xp: 3450,
